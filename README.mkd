@@ -38,11 +38,11 @@ while preventing your opponent from doing the same. Early 2013, someone
 at [NZOI][] came up with the idea of making this into a programming
 contest.
 
-That's where *Manchot* comes in. The original example code was written
-in C++ &ndash; but because the implementation used a simple stdin/stdout
+That's where Manchot comes in. The original example code was written in
+C++ &ndash; but because the implementation used a simple stdin/stdout
 interface, it was easy to port to other languages. So on that fateful
-day, yours truly set out and wrote a rudimentary Python AI: what would
-soon become this project.
+day, yours truly set out and wrote a rudimentary Python AI: the first
+revision of Manchot.
 
 [NZOI]: http://nzoi.org.nz/
 
