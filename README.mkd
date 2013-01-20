@@ -1,0 +1,52 @@
+Manchot
+=======
+
+(because everything sounds better in French)
+--------------------------------------------
+
+This is *Manchot*, the award-winning Python adapter for the epic AI
+challenge, [*Hey, That's My Fish!*][HTMF]. With it, you can write epic
+AIs in a language more convenient and less error-prone than C++.
+
+[HTMF]: http://heythatsmyfish.com/
+
+*Manchot* uses Python 2.7. Since that's also the version used by the
+official judging site, I don't plan on supporting anything else.
+
+
+Get started
+-----------
+
+Assuming you've already [set up the judging program][HTMF source].
+
+    cp manchot.py myai.py
+    chmod +x myai.py
+    ruby1.9.1 /path/to/judge.rb 0 score.txt /path/to/sample_ai ./myai.py
+
+Now open `myai.py` and start hacking!
+
+[HTMF source]: https://bitbucket.org/ronalchn/penguins
+
+
+FAQ
+---
+
+### What's *Hey, That's My Fish!*, anyway?
+
+It's a board game, where the aim is to grab as many fish as possible
+while preventing your opponent from doing the same. Early 2013, someone
+at [NZOI][] came up with the idea of making this into a programming
+contest.
+
+That's where *Manchot* comes in. The original example code was written
+in C++ &ndash; but because the implementation used a simple stdin/stdout
+interface, it was easy to port to other languages. So on that fateful
+day, yours truly set out and wrote a rudimentary Python AI: what would
+soon become this project.
+
+[NZOI]: http://nzoi.org.nz/
+
+
+### Do you like ducks?
+
+Yes I do.
