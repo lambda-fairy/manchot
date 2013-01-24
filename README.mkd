@@ -47,6 +47,33 @@ revision of Manchot.
 [NZOI]: http://nzoi.org.nz/
 
 
+### Award winning?
+
+Yup. My program (which was based on this code) won the AI contest (see
+above). A few factors contributed to its success:
+
+* Because I spent too much time polishing Manchot, I only had time to
+  write a simple greedy algorithm, rather than a more advanced minimax.
+  But this became an advantage, as there were too many possible moves for
+  an exhaustive algorithm (such as minimax) to work.
+
+* It was written in Python rather than C++. This meant no segfaults, no
+  off-by-one errors, and no segfaults due to off-by-one errors.
+
+* The game was very exploitable. It came down to these two observations:
+
+  - If one player's program crashed, the game kept running. This meant
+    the other player effectively had the board to themselves.
+
+  - The programs were not ranked by the number of wins, but the sum of
+    fish caught in all games.
+
+  My program made the most of this loophole. If it found its opponent
+  had crashed, it would switch to a slower strategy, making sure it
+  caught every single fish. Because there were many buggy programs (see
+  the second point) this put it in the lead.
+
+
 ### Do you like ducks?
 
 Yes I do.
